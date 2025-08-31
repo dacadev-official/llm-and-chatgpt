@@ -1,40 +1,45 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8" />
+    <title>Capacitación en LLMs y ChatGPT</title>
+    <link rel="stylesheet" href="./dist/reveal.css" />
+    <link rel="stylesheet" href="./dist/theme/moon.css" id="theme" />
+    <link rel="stylesheet" href="./plugin/highlight/monokai.css" />
+    <link rel="stylesheet" href="./assets/theme.css">
+    <link rel="stylesheet" href="https://unpkg.com/primeflex@latest/primeflex.css">
+  </head>
 
-		<title>reveal.js</title>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <!-- Use external markdown resource, separate slides by three newlines; vertical slides by two newlines -->
+        <!-- Presentación -->
+        <section data-markdown="./slides/presentation.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
+        <!-- Moódulo 1: ¿Qué es un LLM? -->
+        <section data-markdown="./slides/module-1-llm.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
+        <!-- Moódulo 2: Prompt Engineering -->
+        <section data-markdown="./slides/module-2-prompt-engineering.md" data-separator="^\n\n\n" data-separator-vertical="^\n\n"></section>
+      </div>
+    </div>
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+    <script src="../dist/reveal.js"></script>
+    <script src="../plugin/markdown/markdown.js"></script>
+    <script src="../plugin/highlight/highlight.js"></script>
+    <script src="../plugin/notes/notes.js"></script>
+    <script src="../plugin/math/math.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js-mermaid-plugin@11.4.1/plugin/mermaid/mermaid.js"></script>
+    <script>
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        hash: true,
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
-
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealMermaid],
+      });
+    </script>
+  </body>
 </html>

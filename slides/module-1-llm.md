@@ -18,13 +18,13 @@ note: Un LLM es un tipo de inteligencia artificial diseñado para entender y gen
 
 ### ¿Cómo funciona a grandes rasgos? ⚙️
 Los modelos LLM **predicen** cuál debería ser la **siguiente palabra** para complementar la información, basándose en **probabilidad y estadística**.
-![Diagrama base de un LLM](./../assets/images/module-1/llm-base.png)
+![Diagrama base de un LLM](./assets/images/module-1/llm-base.png)
 <!--  .element: class="fragment" -->
 
 
 ### Cómo percibe el mundo los LLMs 🌎
 
-<img src="./../assets/images/module-1/tokenizer.png" alt="Tokenizador" style="height:500px" />
+<img src="./assets/images/module-1/tokenizer.png" alt="Tokenizador" style="height:500px" />
 
 note:
 * Los LLMs no leen letras individuales, sino agrupaciones de letras o palabras.
@@ -37,13 +37,13 @@ note:
 
 Tokenizar el lenguaje consiste en dividir el texto en partes más pequeñas, llamadas tokens. Estos tokens son luego convertidos en vectores numéricos que el modelo puede entender.
 
-![vectorización simple](./../assets/images/module-1/vectorizacion-simple.png)
+![vectorización simple](./assets/images/module-1/vectorizacion-simple.png)
 <!--  .element: class="fragment" -->
 
 
 Para nuestro ejemplo: *"El gato maúlla y el perro..."*
 
-<img src="./../assets/images/module-1/vectorizacion-example.png" alt="vectorización example" style="height:500px" />
+<img src="./assets/images/module-1/vectorizacion-example.png" alt="vectorización example" style="height:500px" />
 
 
 ### Modelos Razonadores 🧩

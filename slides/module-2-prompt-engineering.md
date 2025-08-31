@@ -16,12 +16,12 @@
 
 ### Estructuras de un Prompt 🧩
 
-<img src="./../assets/images/module-2/prompt-schemas.png" alt="esquemas de prompts" style="height:400px" />
+<img src="./assets/images/module-2/prompt-schemas.png" alt="esquemas de prompts" style="height:400px" />
 
 
 #### Ejemplo: T-A-O
 
-![tao](./../assets/images/module-2/esquema-t-a-o.png)
+![tao](./assets/images/module-2/esquema-t-a-o.png)
 
 note:
 Necesito ideas para el lanzamiento de un nuevo producto lácteo.
@@ -33,7 +33,7 @@ El nombre debe comunicar bienestar digestivo y ser fácil de recordar para las f
 
 #### Ejemplo: R-T-F
 
-![rtf](./../assets/images/module-2/esquema-r-t-f.png)
+![rtf](./assets/images/module-2/esquema-r-t-f.png)
 
 note:
 Eres un especialista en sistemas de gestión de calidad e inocuidad alimentaria.
@@ -45,7 +45,7 @@ La respuesta debe ser un único párrafo de no más de 50 palabras.
 
 #### Ejemplo: B-A-B
 
-![rtf](./../assets/images/module-2/esquema-b-a-b.png)
+![rtf](./assets/images/module-2/esquema-b-a-b.png)
 
 note:
 El equipo de I+D invierte mucho tiempo buscando manualmente nuevas tendencias en ingredientes y productos lácteos a nivel mundial.
@@ -57,7 +57,7 @@ Diseña la estructura de un prompt que pueda usarse mensualmente para solicitar 
 
 #### Ejemplo: C-A-R-E
 
-<img src="./../assets/images/module-2/esquema-c-a-r-e.png" alt="esquema C-A-R-E" style="height:450px" />
+<img src="./assets/images/module-2/esquema-c-a-r-e.png" alt="esquema C-A-R-E" style="height:450px" />
 
 note:
 Somos Fasalact S.A.S. y necesitamos crear contenido para nuestro blog corporativo para atraer a clientes B2B (empresas).

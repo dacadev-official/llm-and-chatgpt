@@ -1,15 +1,15 @@
-## 🚀 Capacitación en LLMs y <span class="text-primary">ChatGPT</span>
+## 🚀 Capacitación en <span class="text-primary">LLMs</span> y <span class="text-primary">ChatGPT</span>
 
 
 
-### Instructor: David Casas
+### <span class="text-primary">Instructor:</span> David Casas
 
-> **Ingeniero Electrónico** con más de **6 años** de experiencia como Ingeniero de Software.
+> <b class="text-primary">Ingeniero Electrónico</b> con más de <b class="text-primary">6 años</b> de experiencia como Ingeniero de Software.
 
 
-- 🔧 Enfoque en <b>automatización de procesos</b> y <b>diseño de servicios web</b>
-- 🤖 Últimos 2 años: <b>adopción de IA generativa</b> en productos
-- 💡 La IA <b>trabaja dentro del producto</b> para entregar valor, no solo para desarrollarlo
+- 🔧 Enfoque en <b class="text-primary">automatización de procesos</b> y <b class="text-primary">diseño de servicios web</b>
+- 🤖 Últimos 2 años: <b class="text-primary">adopción de IA generativa</b> en productos
+- 💡 La IA <b class="text-primary">trabaja dentro del producto</b> para entregar valor, no solo para desarrollarlo
 
 
 
@@ -17,8 +17,8 @@
 
 
 **Aprenderás:**
-- Fundamentos de los **LLMs**
-- Uso de **ChatGPT** para optimizar procesos y tomar mejores decisiones
+- Fundamentos de los <b class="text-primary">LLMs</b>
+- Uso de <b class="text-primary">ChatGPT</b> para optimizar procesos y tomar mejores decisiones
 
 **Objetivo:**
-- Despertar tu curiosidad por la **IA generativa** y su potencial
+- Despertar tu curiosidad por la <b class="text-primary">IA generativa</b> y su potencial

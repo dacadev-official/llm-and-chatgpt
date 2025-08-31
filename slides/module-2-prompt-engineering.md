@@ -1,17 +1,17 @@
-### Módulo 2:<br> Prompt Engineering 🚀✨
+### <span class="text-primary">Módulo 2:</span><br> Prompt Engineering 🚀✨
 
 - 🏗️ Los 4 Pilares de un Prompt  <!-- .element: class="fragment" data-fragment-index="1" -->
-- 🧠 Técnicas Fundamentales:<!-- .element: class="fragment" data-fragment-index="2" --> **Zero-shot**<!-- .element: class="fragment" data-fragment-index="2" -->, **Few-shot**<!-- .element: class="fragment" data-fragment-index="2" -->, **Chain-of-Thought**<!-- .element: class="fragment" data-fragment-index="2" -->, **Tree-of-Thoughts**<!-- .element: class="fragment" data-fragment-index="2" -->
+- 🧠 Técnicas Fundamentales:<!-- .element: class="fragment" data-fragment-index="2" --> <b class="text-primary">Zero-shot</b><!-- .element: class="fragment" data-fragment-index="2" -->, <b class="text-primary">Few-shot</b><!-- .element: class="fragment" data-fragment-index="2" -->, <b class="text-primary">Chain-of-Thought</b><!-- .element: class="fragment" data-fragment-index="2" -->, <b class="text-primary">Tree-of-Thoughts</b><!-- .element: class="fragment" data-fragment-index="2" -->
 - 📝 Uso de formatos para mejorar la precisión y el contexto  <!-- .element: class="fragment" data-fragment-index="4" -->
 
 
 
 ### Los 4 Pilares de un Prompt 🏗️
 
-- **Rol:** ¿Quién debe ser la IA?
-- **Contexto:** ¿Por qué se realiza la tarea?
-- **Tarea:** ¿Qué acción debe ejecutar?
-- **Formato:** ¿Cómo debe ser la respuesta?
+- <b class="text-primary">Rol:</b> ¿Quién debe ser la IA?
+- <b class="text-primary">Contexto:</b> ¿Por qué se realiza la tarea?
+- <b class="text-primary">Tarea:</b> ¿Qué acción debe ejecutar?
+- <b class="text-primary">Formato:</b> ¿Cómo debe ser la respuesta?
 
 
 ### Estructuras de un Prompt 🧩
@@ -72,17 +72,17 @@ Un buen inicio sería: "En la industria de alimentos, el producto final es un re
 
 ### Técnicas de Prompt Engineering 🛠️
 
-- **Zero-shot 🎯** 
-- **Few-shot 📚** 
-- **Chain-of-Thought 🧠➡️**
-- **Tree-of-Thoughts 🌳➡️**
+- <b class="text-primary">Zero-shot 🎯</b> 
+- <b class="text-primary">Few-shot 📚</b> 
+- <b class="text-primary">Chain-of-Thought 🧠➡️</b>
+- <b class="text-primary">Tree-of-Thoughts 🌳➡️</b>
 
 
-### Zero-shot 🎯
+### <span class="text-primary">Zero-shot</span> 🎯
 
 Consiste en pedirle al modelo que haga una tarea solo con la instrucción, sin ejemplos.
 
-**Úsalo:** Para tareas simples que el modelo ya conoce, como traducir, resumir o clasificar sentimientos.
+<b class="text-primary">Úsalo:</b> Para tareas simples que el modelo ya conoce, como traducir, resumir o clasificar sentimientos.
 <!-- .element: class="fragment" data-fragment-index="1" -->
 
 note:
@@ -98,11 +98,11 @@ Texto a analizar:
 "Hola equipo, les presento a María Rodriguez, la nueva Directora de Marketing de 'Innovate Corp'. Su correo es m.rodriguez@innovatecorp.com. Me comentó que su número principal es el 555-0102. Saludos, Juan."
 
 
-### Few-shot 📚
+### <span class="text-primary">Few-shot</span> 📚
 
 Consiste en mostrarle al modelo algunos ejemplos de lo que esperas como entrada y salida.
 
-**Úsalo:** Cuando la tarea es más compleja, requiere un formato específico o buscas mayor control en la respuesta.
+<b class="text-primary">Úsalo:</b> Cuando la tarea es más compleja, requiere un formato específico o buscas mayor control en la respuesta.
 <!-- .element: class="fragment" data-fragment-index="1" -->
 
 note:
@@ -137,11 +137,11 @@ Características: Resolución 4K, autoenfoque con IA, aro de luz integrado.
 Reseña:
 
 
-### Chain-of-Thought 🧠➡️
+### <span class="text-primary">Chain-of-Thought</span> 🧠➡️
 
 Consiste en pedirle al modelo que explique su razonamiento paso a paso antes de dar la respuesta final.
 
-**Úsalo:** Para problemas que requieren lógica, cálculos o varios pasos para llegar a la solución.
+<b class="text-primary">Úsalo:</b> Para problemas que requieren lógica, cálculos o varios pasos para llegar a la solución.
 <!-- .element: class="fragment" data-fragment-index="1" -->
 
 note:
@@ -158,7 +158,7 @@ Respuesta final: 57 lápices.
 
 
 
-### Marcado de texto (Markdown) 📝
+### Marcado de texto (<span class="text-primary">Markdown</span>) 📝
 
 - Lenguaje ligero para dar formato legible: encabezados, listas, enlaces y énfasis. <!-- .element: class="fragment" data-fragment-index="1" -->
 - En prompts, ayuda a estructurar instrucciones y salidas con claridad y consistencia. <!-- .element: class="fragment" data-fragment-index="2" -->
@@ -173,7 +173,7 @@ Usa Markdown para definir plantillas de salida: títulos H2, secciones numeradas
 
 
 
-### Tree of Thoughts (ToT) 🌳🧠
+### <span class="text-primary">Tree of Thoughts</span> (ToT) 🌳🧠
 
 - Técnica para explorar varias líneas de razonamiento en paralelo.
 - En lugar de un camino lineal (CoT), organiza ideas como un árbol con ramas.

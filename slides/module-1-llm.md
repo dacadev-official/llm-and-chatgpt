@@ -1,4 +1,4 @@
-### Módulo 1:<br> Fundamentos de LLMs 🚀
+### <span class="text-primary">Módulo 1:</span><br> Fundamentos de LLMs 🚀
 
 - ¿Qué es un LLM? <!-- .element: class="fragment" -->
 - Cómo percibe el mundo un LLM <!-- .element: class="fragment" -->
@@ -8,16 +8,17 @@
 
 ### ¿Qué es un LLM? 🤖
 
-Es un tipo de **inteligencia artificial** (IA) diseñado para entender y **generar texto** de manera similar a como lo hacemos nosotros. 🧠
+Es un tipo de <b class="text-primary">inteligencia artificial</b> (IA) diseñado para entender y <b class="text-primary">generar texto</b> de manera similar a como lo hacemos nosotros. 🧠
 
-> Es una máquina que ha leído mucho y puede conversar, responder preguntas o ayudarte a escribir. 💬
+> **Es una máquina que ha leído mucho y puede conversar, responder preguntas o ayudarte a escribir. 💬**
 <!--  .element: class="fragment" -->
 
 note: Un LLM es un tipo de inteligencia artificial diseñado para entender y generar texto de manera similar a como lo hacemos los humanos. Se le llama “grande” porque ha sido entrenado con enormes cantidades de información (libros, artículos, páginas web, conversaciones) y porque cuenta con millones o incluso billones de parámetros (piezas internas que ajustan su “forma de pensar”).
 
 
 ### ¿Cómo funciona a grandes rasgos? ⚙️
-Los modelos LLM **predicen** cuál debería ser la **siguiente palabra** para complementar la información, basándose en **probabilidad y estadística**.
+Los modelos LLM <b class="text-primary">predicen</b> cuál debería ser la <b class="text-primary">siguiente palabra</b> para complementar la información, basándose en <b class="text-primary">probabilidad y estadística</b>.
+
 ![Diagrama base de un LLM](./assets/images/module-1/llm-base.png)
 <!--  .element: class="fragment" -->
 
@@ -35,7 +36,7 @@ note:
 
 ### Cómo se correlacionan los tokens 🔗
 
-Tokenizar el lenguaje consiste en dividir el texto en partes más pequeñas, llamadas tokens. Estos tokens son luego convertidos en vectores numéricos que el modelo puede entender.
+Tokenizar el lenguaje consiste en <b class="text-primary">dividir el texto</b> en partes más pequeñas, llamadas <b class="text-primary">tokens</b>. Estos tokens son luego convertidos en vectores numéricos que el <b class="text-primary">modelo puede entender</b>.
 
 ![vectorización simple](./assets/images/module-1/vectorizacion-simple.png)
 <!--  .element: class="fragment" -->
@@ -48,19 +49,19 @@ Para nuestro ejemplo: *"El gato maúlla y el perro..."*
 
 ### Modelos Razonadores 🧩
 
-Es una inteligencia artificial que, en lugar de solo dar una respuesta, **descompone** un problema en pasos lógicos para **"pensar"** y encontrar la mejor solución.
+Es una inteligencia artificial que, en lugar de solo dar una respuesta, <b class="text-primary">descompone</b> un problema en pasos lógicos para <b class="text-primary">"pensar"</b> y encontrar la mejor solución.
 
 
-1. **Comprender:** Analiza a fondo la pregunta.
-2. **Planificar:** Crea un plan o "cadena de pensamiento".
-3. **Ejecutar:** Sigue el plan, usando herramientas si es necesario.
-4. **Verificar:** Revisa y corrige su propio trabajo.
-5. **Responder:** Entrega la solución final. ✅
+1. <b class="text-primary">Comprender:</b> Analiza a fondo la pregunta.
+2. <b class="text-primary">Planificar:</b> Crea un plan o "cadena de pensamiento".
+3. <b class="text-primary">Ejecutar:</b> Sigue el plan, usando herramientas si es necesario.
+4. <b class="text-primary">Verificar:</b> Revisa y corrige su propio trabajo.
+5. <b class="text-primary">Responder:</b> Entrega la solución final. ✅
 
 
 
 ### Consideraciones clave ⚠️
 
-- **Alucinaciones:** Ocurrencias donde el modelo genera información incorrecta o inventada.
-- **Limitación de los datos:** Dependencia de la calidad y cantidad de datos de entrenamiento.
-- **Pensamiento humano:** Dificultad para replicar la retroalimentación humana.
+- <b class="text-primary">Alucinaciones:</b> Ocurrencias donde el modelo genera información incorrecta o inventada.
+- <b class="text-primary">Limitación de los datos:</b> Dependencia de la calidad y cantidad de datos de entrenamiento.
+- <b class="text-primary">Pensamiento humano:</b> Dificultad para replicar la retroalimentación humana.

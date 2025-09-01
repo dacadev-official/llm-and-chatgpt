@@ -117,18 +117,26 @@ Escribe una reseña de experto para el nuevo producto, siguiendo el estilo y for
 Producto: Audífonos "AuraSound Pro"
 Reseña:
 Los AuraSound Pro son una maravilla para los audiófilos.
+
 (+) Calidad de sonido cristalina y bajos profundos.
+
 (+) Cancelación de ruido líder en su clase.
+
 (-) La batería podría ser un poco mejor.
+
 Veredicto: 9/10 - Imprescindibles si buscas la mejor calidad de audio.
 
 **Ejemplo 2:**
 Producto: Teclado Mecánico "KeyMaster V2"
 Reseña:
 El KeyMaster V2 es el sueño de todo programador y gamer.
+
 (+) Switches mecánicos con una respuesta táctil increíble.
+
 (+) Construcción robusta en aluminio.
+
 (-) El software de personalización es algo confuso.
+
 Veredicto: 8.5/10 - Una inversión sólida para tu escritorio.
 
 **Nuevo Producto:**
@@ -186,10 +194,10 @@ Frente a CoT (lineal), ToT eleva la probabilidad de buenas soluciones en problem
 
 ### Cómo funciona ToT ⚙️
 
-1) 🌱 Genera ramas: posibles pasos/ideas siguientes.
-2) 🧮 Autoevalúa cada rama: puntúa su viabilidad.
-3) 🔙 Retrocede (backtracking): descarta ramas débiles y sigue las prometedoras.
-4) 🔁 Itera hasta resolver o alcanzar límites (profundidad/tiempo/ancho de búsqueda).
+1. Genera posibles pasos/ideas a ejecutar.
+2. Evalúa cada idea.
+3. Descartar ideas que no son óptimas y desarrolla las prometedoras.
+4. Itera hasta resolver o alcanzar límites
 
 note:
 🌳 Piensa en un árbol de decisiones: explorar → evaluar → podar.
@@ -205,7 +213,7 @@ Tip: si el tiempo es limitado, reduce profundidad o ancho; usa una evaluación h
 
 **Instrucciones:**
 
-1. **Genera hasta 5 estrategias de marketing distintas** enfocadas en el público objetivo (jóvenes de 18 a 25 años).
+1. **Genera 3 estrategias de marketing distintas** enfocadas en el público objetivo (jóvenes de 18 a 25 años).
 
 2. Para **cada estrategia**, incluye:
 

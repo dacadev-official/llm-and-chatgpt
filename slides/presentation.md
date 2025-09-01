@@ -2,13 +2,13 @@
 
 
 
-### <span class="text-primary">Instructor:</span> David Casas
+### <span class="text-primary">Capacitador:</span> David Casas
 
-> <b class="text-primary">Ingeniero Electrónico</b> con más de <b class="text-primary">6 años</b> de experiencia como Ingeniero de Software.
+> <b class="text-primary">Ingeniero Electrónico</b> con más de <b class="text-primary">7 años</b> de experiencia como Ingeniero de Software.
 
 
 - 🔧 Enfoque en <b class="text-primary">automatización de procesos</b> y <b class="text-primary">diseño de servicios web</b>
-- 🤖 Últimos 2 años: <b class="text-primary">adopción de IA generativa</b> en productos
+- 🤖 Últimos 3 años: <b class="text-primary">adopción de IA generativa</b> en productos
 - 💡 La IA <b class="text-primary">trabaja dentro del producto</b> para entregar valor, no solo para desarrollarlo
 
 

@@ -92,10 +92,10 @@ Gracias a su vasto entrenamiento, entienda y la ejecute correctamente.
 
 **Analogía:** Es como pedirle a un chef experimentado que te prepare un "omelette" sin darle la receta. Asumes que ya sabe lo que es y cómo hacerlo.
 
-**Ejemplo:** Extrae la siguiente información del texto y preséntala en formato JSON: nombre_completo, cargo, empresa, email y telefono. Si un campo no está presente, déjalo como "N/A".
+**Ejemplo:** Clasifica el siguiente comentario de un cliente en una de estas tres categorías: "Calidad", "Sugerencia de Producto" o "Marketing".
 
-Texto a analizar:
-"Hola equipo, les presento a María Rodriguez, la nueva Directora de Marketing de 'Innovate Corp'. Su correo es m.rodriguez@innovatecorp.com. Me comentó que su número principal es el 555-0102. Saludos, Juan."
+Comentario a analizar:
+"Hola, me encanta su nuevo kefir de Arandanos, pero la textura se sentía un poco más espesa esta vez. ¿Han considerado lanzar una opción más ligera? Sería increíble."
 
 
 ### <span class="text-primary">Few-shot</span> 📚
@@ -111,38 +111,26 @@ Permite guiar al modelo con ejemplos concretos, mejorando la precisión y el est
 **Analogía:** Es como pedirle a un chef un platillo y mostrarle fotos de cómo quieres que se vea el resultado final.
 
 **Ejemplo:**
-Escribe una reseña de experto para el nuevo producto, siguiendo el estilo y formato de los ejemplos.
+Redacta una descripción breve para la etiqueta del nuevo producto, siguiendo el estilo y formato de los ejemplos.
 
 **Ejemplo 1:**
-Producto: Audífonos "AuraSound Pro"
-Reseña:
-Los AuraSound Pro son una maravilla para los audiófilos.
-
-(+) Calidad de sonido cristalina y bajos profundos.
-
-(+) Cancelación de ruido líder en su clase.
-
-(-) La batería podría ser un poco mejor.
-
-Veredicto: 9/10 - Imprescindibles si buscas la mejor calidad de audio.
+Producto: Yogurt Griego Sabor Vainilla
+Descripción:
+Cremoso y refrescante. Nuestro Yogurt Griego Sabor Vainilla está elaborado con leche fresca y fermentos naturales para cuidar tu digestión.
+Ideal para: Acompañar tus desayunos.
+Atributos: #Tradicional #Saludable #Cremoso
 
 **Ejemplo 2:**
-Producto: Teclado Mecánico "KeyMaster V2"
-Reseña:
-El KeyMaster V2 es el sueño de todo programador y gamer.
-
-(+) Switches mecánicos con una respuesta táctil increíble.
-
-(+) Construcción robusta en aluminio.
-
-(-) El software de personalización es algo confuso.
-
-Veredicto: 8.5/10 - Una inversión sólida para tu escritorio.
+Producto: Queso Cottage
+Descripción:
+Suave y cremoso. Nuestro Queso Cottage está hecho con leche fresca y es perfecto para añadir a tus ensaladas o disfrutar solo.
+Ideal para: Postres y antojos.
+Atributos: #Artesanal #Clásico #Dulce
 
 **Nuevo Producto:**
-Producto: Webcam "StreamView 4K"
-Características: Resolución 4K, autoenfoque con IA, aro de luz integrado.
-Reseña:
+Producto: Yogur Griego con Miel y Nueces
+Características: Alto en proteína, cremosidad extra, endulzado naturalmente con miel.
+Descripción:
 
 
 ### <span class="text-primary">Chain-of-Thought</span> 🧠➡️
@@ -158,11 +146,31 @@ Obligar al modelo a "pensar en voz alta" ayuda a obtener respuestas más precisa
 **Analogía:** Es como resolver un problema de matemáticas mostrando todos los pasos, no solo la respuesta final.
 
 **Ejemplo:**
-Pregunta: Juan tiene 5 cajas de lápices. Cada caja contiene 12 lápices. Si le regala 3 lápices a Ana, ¿cuántos le quedan?
-Razonamiento:
-1. 5 cajas × 12 = 60 lápices.
-2. 60 - 3 = 57 lápices.
-Respuesta final: 57 lápices.
+**Contexto:**
+Actúa como jefe de compras en Fasalact S.A.S. Debes seleccionar un proveedor de un nuevo cultivo probiótico para el lanzamiento de un yogur premium. La prioridad inicial es la flexibilidad y minimizar el riesgo, ya que es un producto nuevo y no conocemos la demanda. El costo por volumen se volverá más importante en 6 meses si el producto tiene éxito.
+
+**Datos de los Proveedores:**
+
+* **Proveedor A (ProbioGlobal):**
+    * Costo: 250.000 COP por kg.
+    * Pedido Mínimo (MOQ): 100 kg.
+    * Tiempo de entrega: 15 días.
+    * Certificaciones: HACCP.
+    * Reputación: Líder del mercado, muy confiable pero poco flexible.
+
+* **Proveedor B (InnovaCultures):**
+    * Costo: 290.000 COP por kg.
+    * Pedido Mínimo (MOQ): 20 kg.
+    * Tiempo de entrega: 7 días.
+    * Certificaciones: HACCP y Certificación Orgánica.
+    * Reputación: Proveedor más nuevo pero con excelentes referencias en productos innovadores.
+
+**Instrucción:**
+Analiza la situación paso a paso para decidir qué proveedor contratar para la fase de lanzamiento. Tu análisis debe incluir:
+
+1.  Una evaluación de los pros y contras de cada proveedor *específicamente para nuestra prioridad actual* (flexibilidad y bajo riesgo).
+2.  Un cálculo del costo de inversión inicial para el pedido mínimo de cada uno.
+3.  Una recomendación final justificada que explique por qué un proveedor es mejor que el otro para esta etapa inicial.
 
 
 
@@ -208,7 +216,6 @@ Aplica a acertijos, planificación, código y contenido creativo.
 Tip: si el tiempo es limitado, reduce profundidad o ancho; usa una evaluación heurística simple (1–10).
 
 **Ejemplo:**
-```markdown
 **Objetivo:** Diseñar y seleccionar la estrategia de marketing más efectiva para aumentar el consumo del yogur griego *Sketos* entre jóvenes de 18 a 25 años.
 
 **Instrucciones:**
@@ -217,21 +224,21 @@ Tip: si el tiempo es limitado, reduce profundidad o ancho; usa una evaluación h
 
 2. Para **cada estrategia**, incluye:
 
-   * **Resumen de la idea** (máximo 40 palabras).
-   * **Canales clave a utilizar** (p. ej.: TikTok, Instagram, punto de venta, colaboraciones con influencers).
-   * **Riesgos principales** (p. ej.: alto costo, baja interacción, saturación del canal).
-   * **Evaluación del impacto potencial** (califica de 1 a 10 según tu estimación de efectividad, considerando factores como viralidad, conexión con el público objetivo, escalabilidad y costo; justifica el valor dado).
-   * **Breve análisis de ROI estimado** (retorno en relación con la inversión).
+   * **Resumen de la idea** (máximo 40 palabras).
+   * **Canales clave a utilizar** (p. ej.: TikTok, Instagram, punto de venta, colaboraciones con influencers).
+   * **Riesgos principales** (p. ej.: alto costo, baja interacción, saturación del canal).
+   * **Evaluación del impacto potencial** (califica de 1 a 10 según tu estimación de efectividad, considerando factores como viralidad, conexión con el público objetivo, escalabilidad y costo; justifica el valor dado).
+   * **Breve análisis de ROI estimado** (retorno en relación con la inversión).
 
 3. **Condición de backtracking:**
-   Si **ninguna estrategia obtiene una puntuación mayor a 7**, elige la mejor valorada, propón una **versión mejorada de esta estrategia** (ajusta el enfoque, canal, mensaje u otros elementos clave), y vuelve a evaluarla.
+   Si **ninguna estrategia obtiene una puntuación mayor a 7**, elige la mejor valorada, propón una **versión mejorada de esta estrategia** (ajusta el enfoque, canal, mensaje u otros elementos clave), y vuelve a evaluarla.
 
 4. **Selección final:**
-   Elige la estrategia con **el mayor puntaje final** y justifica tu elección basándote en:
+   Elige la estrategia con **el mayor puntaje final** y justifica tu elección basándote en:
 
-   * Su potencial de ROI.
-   * Nivel de alineación con la marca Sketos (identidad, valores, estilo).
-   * Relevancia cultural para el público objetivo.
+   * Su potencial de ROI.
+   * Nivel de alineación con la marca Sketos (identidad, valores, estilo).
+   * Relevancia cultural para el público objetivo.
 
 **Formato de salida esperado:**
 
@@ -239,7 +246,6 @@ Tip: si el tiempo es limitado, reduce profundidad o ancho; usa una evaluación h
 * Lista numerada de estrategias (máximo 5).
 * Evaluación completa de cada una.
 * Estrategia final seleccionada con su justificación clara.
-```
 
 
 
